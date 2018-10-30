@@ -250,15 +250,14 @@ body {
   margin-right: auto;
   line-height: 1.2;
   border-radius: 2px;
+  padding: 10px;
 }
 
 #book_content code {
-  padding: 20px;
   color: #8BD100;
   font-size: 14px;
   font-weight: normal;
   line-height: 2.2;
-  font-family: inherit;
   border-radius: 2px;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
@@ -270,6 +269,7 @@ body {
   color: #F66B4E;
   background: #FFF2EF;
   padding: 0px 5px;
+  margin: 0 3px;
 }
 
 #book_content h1 {
@@ -281,7 +281,6 @@ body {
   margin-bottom: 0px;
   padding-top: 10px;
   padding-bottom: 0px;
-  font-size: 20px;
   text-align: left;
 }
 
@@ -325,8 +324,6 @@ body {
 
 #book_content ul li,
 #book_content ol li {
-  text-indent: -5px;
-  font-size: 0.8rem;
 }
 
 #book_content ul li.link,
@@ -522,6 +519,7 @@ blockquote {
   margin: 0 50px;
   line-height: 60px;
   display: inline-block;
+  cursor: pointer;
 }
 
 .anthor {
@@ -581,4 +579,8 @@ a.book-footer-next-link {
   float: right;
   font-size: 26px;
   margin: 10px 30px;
+}
+
+.book-footer {
+  margin-top: 50px;
 }

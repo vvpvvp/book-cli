@@ -1,5 +1,7 @@
+var indexHash = "#" + (CONFIG.index || '').split(".")[0];
+
 function getHash() {
-  var hash = window.location.hash || CONFIG.index;
+  var hash = window.location.hash || indexHash;
   return hash.substr(1, hash.length);
 }
 function updateHash(content) {
