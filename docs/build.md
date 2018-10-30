@@ -8,7 +8,7 @@ Github提供了免费的静态页面部署服务，所以，你可以免费的�
 
 项目 -> Setting -> GitHub Pages -> 选择master分支 -> 点击Save
 
-<img width="100%" src="/images/docs/github.png"/>
+<img width="100%" src="./images/docs/github.png"/>
 
 之后，你就可以访问文档网站了。
 

@@ -36,7 +36,7 @@ book-cli 支持的是markdown文档。
 
 将会生成以下目录：
 
-<img src="/images/docs/menu.png"/>
+<img src="./images/docs/menu.png"/>
 
 
 ### 主页面
