@@ -4,7 +4,7 @@
 
 ## Markdown文件解析
 
-Markdown文件解析是使用 `marked` 插件， 插件地址： [https://www.npmjs.com/package/marked](https://www.npmjs.com/package/marked)
+Markdown文件解析是使用 `marked` 插件， 插件地址： [https://www.npmjs.com/package/marked](https://www.npmjs.com/package/marked)。
 
 ## 代码高亮
 

@@ -6,5 +6,4 @@
 * [Markdown](markdown.md)
 * [提示与警告](highlight.md)
 * [图标](icons.md)
-* [自定义](selfdefined.md)
 * [反馈](feedback.md)

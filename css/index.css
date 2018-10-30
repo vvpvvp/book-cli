@@ -610,3 +610,12 @@ a.book-footer-next-link {
   font-size: 16px;
   margin: 1rem 0;
 }
+
+.book-content-loading {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  margin-top: -20px;
+  margin-left: -10px;
+}

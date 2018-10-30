@@ -59,6 +59,8 @@ $(function () {
     var nowLink = $("a[href='" + page + ".md']", _sidebar);
     nowLink.addClass("selected");
 
+    $(_content).html("<div class='book-content-loading'><i class='book-icon-loading'></i></div>");
+
     $.get("docs/" + page + ".md", function (data) {
       $(_content).html(marked(data));
       if ("#" + page == CONFIG.index) {
