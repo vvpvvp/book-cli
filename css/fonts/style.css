@@ -9,7 +9,7 @@
   font-style: normal;
 }
 
-[class^="h-icon-"], [class*=" h-icon-"] {
+[class^="book-icon-"], [class*=" book-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'heyui' !important;
   speak: none;
@@ -24,120 +24,120 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.h-icon-help:before {
+.book-icon-help:before {
   content: "\e900";
 }
-.h-icon-plus:before {
+.book-icon-plus:before {
   content: "\e114";
 }
-.h-icon-minus:before {
+.book-icon-minus:before {
   content: "\e115";
 }
-.h-icon-check:before {
+.book-icon-check:before {
   content: "\e116";
 }
-.h-icon-inbox:before {
+.book-icon-inbox:before {
   content: "\e122";
 }
-.h-icon-outbox:before {
+.book-icon-outbox:before {
   content: "\e123";
 }
-.h-icon-info:before {
+.book-icon-info:before {
   content: "\e901";
 }
-.h-icon-refresh:before {
+.book-icon-refresh:before {
   content: "\e902";
 }
-.h-icon-warn:before {
+.book-icon-warn:before {
   content: "\e903";
 }
-.h-icon-success:before {
+.book-icon-success:before {
   content: "\e904";
 }
-.h-icon-error:before {
+.book-icon-error:before {
   content: "\e905";
 }
-.h-icon-close:before {
+.book-icon-close:before {
   content: "\e906";
 }
-.h-icon-down:before {
+.book-icon-down:before {
   content: "\e907";
 }
-.h-icon-home:before {
+.book-icon-home:before {
   content: "\e908";
 }
-.h-icon-left:before {
+.book-icon-left:before {
   content: "\e909";
 }
-.h-icon-top:before {
+.book-icon-top:before {
   content: "\e90a";
 }
-.h-icon-user:before {
+.book-icon-user:before {
   content: "\e90b";
 }
-.h-icon-task:before {
+.book-icon-task:before {
   content: "\e90c";
 }
-.h-icon-message:before {
+.book-icon-message:before {
   content: "\e90d";
 }
-.h-icon-fullscreen:before {
+.book-icon-fullscreen:before {
   content: "\e90e";
 }
-.h-icon-menu:before {
+.book-icon-menu:before {
   content: "\e90f";
 }
-.h-icon-right:before {
+.book-icon-right:before {
   content: "\e910";
 }
-.h-icon-link:before {
+.book-icon-link:before {
   content: "\e911";
 }
-.h-icon-calendar:before {
+.book-icon-calendar:before {
   content: "\e912";
 }
-.h-icon-upload:before {
+.book-icon-upload:before {
   content: "\e913";
 }
-.h-icon-github:before {
+.book-icon-github:before {
   content: "\e914";
 }
-.h-icon-edit:before {
+.book-icon-edit:before {
   content: "\e915";
 }
-.h-icon-location:before {
+.book-icon-location:before {
   content: "\e916";
 }
-.h-icon-trash:before {
+.book-icon-trash:before {
   content: "\e918";
 }
-.h-icon-users:before {
+.book-icon-users:before {
   content: "\e919";
 }
-.h-icon-complete:before {
+.book-icon-complete:before {
   content: "\e91a";
 }
-.h-icon-bell:before {
+.book-icon-bell:before {
   content: "\e91b";
 }
-.h-icon-search:before {
+.book-icon-search:before {
   content: "\e91c";
 }
-.h-icon-star:before {
+.book-icon-star:before {
   content: "\e91d";
 }
-.h-icon-star-on:before {
+.book-icon-star-on:before {
   content: "\e91e";
 }
-.h-icon-setting:before {
+.book-icon-setting:before {
   content: "\e926";
 }
-.h-icon-completed:before {
+.book-icon-completed:before {
   content: "\e930";
 }
-.h-icon-loading:before {
+.book-icon-loading:before {
   content: "\e97f";
 }
-.h-icon-spinner:before {
+.book-icon-spinner:before {
   content: "\e981";
 }

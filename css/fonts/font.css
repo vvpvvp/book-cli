@@ -1,10 +1,10 @@
 @import "./style.css";
 
-[class^="h-icon-"], [class*=" h-icon-"] {
+[class^="book-icon-"], [class*=" book-icon-"] {
   font-size: inherit;
   display: inline-block;
   vertical-align: middle;
 }
-.h-icon-loading, .h-icon-spinner {
+.book-icon-loading, .book-icon-spinner {
   animation: ani-load-loop 1s linear infinite;
 }

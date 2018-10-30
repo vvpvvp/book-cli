@@ -94,11 +94,11 @@ $(function () {
         var footer = $('<div class="book-footer"></div>');
         if(nowLinkIndex > 0) {
           var dom = $(as[nowLinkIndex-1]);
-          footer.append('<a class="book-footer-prev-link" href="#'+dom.attr('href').split(".")[0]+'"><i class="h-icon-left"></i> '+dom.text()+'</a>');
+          footer.append('<a class="book-footer-prev-link" href="#'+dom.attr('href').split(".")[0]+'"><i class="book-icon-left"></i> '+dom.text()+'</a>');
         }
         if(nowLinkIndex < as.length - 1) {
           var dom = $(as[nowLinkIndex+1]);
-          footer.append('<a class="book-footer-next-link" href="#'+dom.attr('href').split(".")[0]+'">'+dom.text()+' <i class="h-icon-right"></i></a>');
+          footer.append('<a class="book-footer-next-link" href="#'+dom.attr('href').split(".")[0]+'">'+dom.text()+' <i class="book-icon-right"></i></a>');
         }
         _content.append(footer);
       }

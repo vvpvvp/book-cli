@@ -34,6 +34,11 @@ book-cli 支持的是markdown文档。
   * [反馈](menu2/feedback.md)
 ```
 
+将会生成以下目录：
+
+<img src="/images/docs/menu.png"/>
+
+
 ### 主页面
 
 左侧目录是根据 `config.index` 的配置获取的，默认为默认 README.md 文件。
@@ -41,6 +46,10 @@ book-cli 支持的是markdown文档。
 ### 内容页面
 
 与 SUMMARY.md 中的目录对应的是各种内容的页面。
+
+## 配置网站logo
+
+请替换 `images/logo.ico` 文件。
 
 ## 本地Server
 
