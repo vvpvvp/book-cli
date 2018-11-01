@@ -18,7 +18,7 @@ $(function () {
   document.title = CONFIG.title;
 
   var metas = document.getElementsByTagName("meta");
-  for (var index = 0; index < index.length; index++) {
+  for (var index = 0; index < metas.length; index++) {
     var element = metas[index];
     if (element.name == 'keywords') {
       element.content = CONFIG.keywords;
