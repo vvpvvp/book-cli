@@ -4,6 +4,7 @@ function getHash() {
   var hash = window.location.hash || indexHash;
   return hash.substr(1, hash.length);
 }
+
 function updateHash(content) {
   var hash = getHash();
   if (hash.indexOf('_') >= 0) {
@@ -72,7 +73,7 @@ $(function () {
       $('h1, h2, h3, h4', _content).map(function () {
         var anthor = $('<a class="anthor">#</a>');
         var title = $(this);
-        anthor.on('click', function() {
+        anthor.on('click', function () {
           updateHash(title.text());
         });
         title.append(anthor)
@@ -82,29 +83,33 @@ $(function () {
         Prism.highlightElement(this);
       });
 
-
-    if(nowLink.length) {
-      var nowLinkIndex = -1;
-      let as = $('a', _sidebar);
-      as.each(function(index, item) {
-        if(nowLink.is(item)) {
-          nowLinkIndex = index;
-          return;
-        }
-      });
-      if (nowLinkIndex > -1) {
-        var footer = $('<div class="book-footer"></div>');
-        if(nowLinkIndex > 0) {
-          var dom = $(as[nowLinkIndex-1]);
-          footer.append('<a class="book-footer-prev-link" href="#'+dom.attr('href').split(".")[0]+'"><i class="book-icon-left"></i> '+dom.text()+'</a>');
-        }
-        if(nowLinkIndex < as.length - 1) {
-          var dom = $(as[nowLinkIndex+1]);
-          footer.append('<a class="book-footer-next-link" href="#'+dom.attr('href').split(".")[0]+'">'+dom.text()+' <i class="book-icon-right"></i></a>');
-        }
-        _content.append(footer);
+      if (CONFIG.openNewWindow) {
+        $('a', _content).attr('target', '_blank')
       }
-    }
+
+
+      if (nowLink.length) {
+        var nowLinkIndex = -1;
+        let as = $('a', _sidebar);
+        as.each(function (index, item) {
+          if (nowLink.is(item)) {
+            nowLinkIndex = index;
+            return;
+          }
+        });
+        if (nowLinkIndex > -1) {
+          var footer = $('<div class="book-footer"></div>');
+          if (nowLinkIndex > 0) {
+            var dom = $(as[nowLinkIndex - 1]);
+            footer.append('<a class="book-footer-prev-link" href="#' + dom.attr('href').split(".")[0] + '"><i class="book-icon-left"></i> ' + dom.text() + '</a>');
+          }
+          if (nowLinkIndex < as.length - 1) {
+            var dom = $(as[nowLinkIndex + 1]);
+            footer.append('<a class="book-footer-next-link" href="#' + dom.attr('href').split(".")[0] + '">' + dom.text() + ' <i class="book-icon-right"></i></a>');
+          }
+          _content.append(footer);
+        }
+      }
 
       $(window).scrollTop(0);
     });
@@ -112,7 +117,7 @@ $(function () {
 
 
   // backtop
-  
+
   var timeout;
   var _backtop = $('.book-backtop');
   var _window = $(window);
@@ -122,7 +127,7 @@ $(function () {
   }
 
   function scrollTopHandle(target, step) {
-    timeout = setTimeout(function() {
+    timeout = setTimeout(function () {
       let scrollTop = target.scrollTop();
       if (scrollTop > step) {
         target.scrollTop(scrollTop - step);
@@ -134,16 +139,16 @@ $(function () {
     }, 5);
   }
 
-  _window.on('scroll', function() {
+  _window.on('scroll', function () {
     if ($(this).scrollTop() > 300) {
       showBacktop(true);
     } else {
       showBacktop(false);
     }
   });
-  _backtop.on('click', function() {
+  _backtop.on('click', function () {
     if (timeout) return;
-    scrollTopHandle(_window, (document.body.scrollHeight - _window.height())/10);
+    scrollTopHandle(_window, (document.body.scrollHeight - _window.height()) / 10);
   })
 
 

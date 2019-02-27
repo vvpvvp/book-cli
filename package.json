@@ -1,6 +1,6 @@
 {
   "name": "book-cli",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Init a html book with markdown file.",
   "main": "index.js",
   "directories": {
