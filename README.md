@@ -39,6 +39,7 @@ book-cli 是一个简单的静态页面系统，用于快速生成说明文档�
 
 * [ECMAScript 6](https://es6.ch-un.com/)
 * [HeyUI Admin Docs](https://heyui.github.io/heyui-admin-docs/)
+* [前端基础文档](https://llbteam.github.io/docs.fe/)
 
 如果你选择使用 book-cli 中，请联系我，将链接加入列表中。
 
