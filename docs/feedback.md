@@ -9,6 +9,8 @@
 ## 谁在使用book-cli？
 
 * [ECMAScript 6](https://es6.ch-un.com/)
+* [HeyUI Admin Docs](https://heyui.github.io/heyui-admin-docs/)
+* [前端基础文档](https://llbteam.github.io/docs.fe/)
 
 如果你选择使用 book-cli 中，请联系我，将链接加入列表中。
 
