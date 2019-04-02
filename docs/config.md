@@ -15,7 +15,7 @@
 使用命令拷贝项目，以下为示例代码：
 
 ``` bash
-  git clone https://github.com/vvpvvp/book-cli.git my-project
+  git clone --depth=1 https://github.com/vvpvvp/book-cli.git my-project
   git remote set-url origin my-project-github-address
   git push
 ```
