@@ -6,7 +6,7 @@ book-cli 是一个简单的静态页面系统，用于快速生成说明文档�
 
 ## 文档说明
 
-[官网文档](https://vvpvvp.coding.me/book-cli/)
+[官网文档](https://vvpvvp.github.io/book-cli/)
 
 
 ## 优缺点
